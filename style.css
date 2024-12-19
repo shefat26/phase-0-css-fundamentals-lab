@@ -3,3 +3,57 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+img {
+
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption{
+
+  font-size: 14px;
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey; /* Your preferred color */
+  text-decoration: none;
+  color: white;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+#details div {
+  float: left;
+  width: 23%; /* Adjust width for 4 divs */
+  margin: 1%;
+}
+
+/* .bottom-divs {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.bottom-divs div {
+  background-color: #bd0c0c; /* Background color */
+  color: white;
+  text-align: center;
+  width: 25%; /* Each div takes up 25% width */
+  padding: 20px;
+}
+
+ section .details {
+
+  background-color: #bd0c0c;
+}
